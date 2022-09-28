@@ -1,0 +1,36 @@
+body {
+    color: brown;
+    background-color: hsla(33, 51%, 61%, 0.481) ;
+    margin:10px;
+    padding: 10px;
+    border-spacing: 15px;
+    
+
+}
+
+
+ol li{
+    list-style-type: none;
+
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+    text-align: center;
+}
+
+legend {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    text-align: center;
+}
+#borrar {
+    color: rgb(104, 96, 217);
+
+}   
+
+#enviar {
+    color:rgb(160, 115, 202)
+}
