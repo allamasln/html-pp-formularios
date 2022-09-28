@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario viejuner</title>
+</head>
+
+    <body>  
+
+    <!--Formulario 1-->
+        <form tabindex="0">
+            <fieldset>
+            <h2>Tú:</h2>
+                <ol>
+                    <li><label for="nombre">Nombre:</label>
+                        <input type="text"></li>
+                    <li><label for="apellidos">Apellidos:</label>
+                        <input type="text"></li>
+                    <li><label for="edad">Edad:</label>
+                        <input type="number"></li>
+                    <li><label for="sexo">Sexo:</label>
+                        <input type="radio" value="hombre" name="hombre"> 
+                        <label for="Hombre">Hombre</label> 
+                        <input type="radio" value="Mujer" name="mujer">
+                        <label for="Mujer">Mujer</label> 
+                        <input type="radio" value="Poco la verdad" name="pocolaverdad">
+                        <label for="Poco la verdad">Poco, la verdad</label></li>
+                    <li><label for="me siento viejuner">Me siento viejuner:</label>
+                        <input type="checkbox"></li>
+                    <li><label for="escribe algo sobre ti">Escribe algo sobre tí:</label>
+                        <textarea autofocus> </textarea></li>  
+                </ol>
+
+            <h2>Tus circunstancias:</h2>
+                <ul>
+                    <li><label for="Correo electrónico">Correo electrónico </label>
+                        <input type="email"> <label for="email"></label></li>
+                    <li><label for="telefono">Teléfono:</label>
+                        <input type="number"></li>
+                </ul>   
+                <input type="reset">
+                <input type="submit">
+            </fieldset>
+        </form>
+
+        <!-- Formulario 2-->
+        <form tabindex="0">
+            <fieldset>
+            <h2>Los ladronzuelos de bicicletas:</h2>
+                <ol>
+                    <li><label for="dia">Día:</label>
+                    <input type="date"></li>
+                    <li><label for="hora">Hora:</label>
+                    <input type="time"></li>
+                    <li><label for="color">Color:</label>
+                    <input type="color"></li>
+                    <li><label for="rango de precio">Rango de precio (0$-5000$):</label>
+                    <input type="range" min="0" max="5000"></li>
+                    <li><label for="tipo de bicicleta">Tipo de bicicleta:</label>
+                        <select name="paseo">
+                            <optgroup label="Paseo">
+                                <option value="senorial">Señorial</option>
+                                <option value="anti-plebeyos">Anti-plebeyos</option>
+                                <option value="porencimadelhombro">Por encima del hombro</option>
+                                
+                            </optgroup>
+
+                            <optgroup label="Montaña">
+                                <option value="Gamusinos">Gamusinos</option>
+                                <option value="hueleflorespremium">Hueleflores premium</option>
+                                <option value="fangolover">Fango lover</option>
+                            </optgroup>
+                                
+                            <optgroup label="Carreras">
+                                <option value="metroymedio">Metroymedio</option>
+                                 <option value="3delatarde.fluorescenteedition">3 de la tarde. Fluorescente edition</option>
+                                 <option value="grupitors">Grupitors</option>
+                            </optgroup>
+                         </select>
+                    </li>
+
+                    <li><label for="accesorios">Accesorios:</label>
+                        <select name="accesorios" multiple>
+                            <option value="ruedines">Ruedines</option>
+                            <option value="pegatinas">Pegatinas</option>
+                            <option value="cestita">Cestita</option>
+                            <option value="bombadeaire">Bomba de aire</option>
+                            <option value="timbre">Timbre</option>
+                            <option value="foco">Foco</option>
+                        </select>
+                    </li>
+
+                    <li><label for="marca">¿Qué marca era?</label>
+                        <input list="marcas" name="marca">
+
+                        <datalist>
+                            <option value="specialized">specialized</option>
+                            <option value="trek">Trek</option>
+                            <option value="merida">Merida</option>
+                            <option value="scott">Scott</option>
+                            <option value="giant">Giant</option>
+                            <option value="cube">Cube</option>
+                            <option value="lapierre">Lapierre</option>
+                            <option value="orbea">Orbea</option>
+                            <option value="cannondale">Cannondale</option>
+                            <option value="bmc">Bmc</option>
+                            <option value="canyon">Canyon</option>
+                            <option value="look">Look</option>
+                            <option value="protek">Protek</option>
+                            <option value="megamo">Megamo</option>
+                            <option value="pinarelli">Pinarelli</option>
+                            <option value="bianchi">Bianchi</option>
+                            <option value="bh">BH</option>
+                            <option value="factor">Factor</option>
+                            <option value="ghost">Ghost</option>
+                            <option value="cervélo">Cervélo</option>
+                            <option value="argon">Argon</option>
+                        </datalist>
+                    </li>
+
+                </ol>
+                <input type="reset">
+                <input type="submit">
+            </fieldset>
+        </form>
+
+
+</body>
+</html>
