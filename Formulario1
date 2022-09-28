@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {background-color: rgb(241, 241, 245);}
+        h1 {color: rgb(22, 56, 104);}
+        label {color: rgb(24, 32, 47);}
+        input {color: rgb(32, 68, 122);}
+        li {list-style: none;}
+    </style>
+</head>
+<body>
+    <h1>El club viejuner</h1>
+    <form action="" class="form">
+            <ul>
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    Nombre: <input name='nombre' type='text' tabindex='1' autofocus>
+                    Apellidos: <input name='apellidos' type='text' tabindex='2'>
+                </fieldset>
+                <li>
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" min="65" max="100">
+                </li>
+                <li>
+                    <label for="sexo">Sexo</label>
+                    <input type="radio" value="male" id="sexo">m<input type="radio" value="female"  id="sexo">f
+                </li>
+                <li>
+                    <label for="viejuner">Me siento viejuner</label>
+                    <input type="checkbox" id="viejuner">
+                </li>
+                <fieldset>
+                    <legend>Escribe algo sobre tí</legend>
+                    <textarea name="" id="sobreti" cols="100" rows="5"></textarea>
+                </fieldset>
+                <li>
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" placeholder="correo@ejemplo.com">
+                </li>
+                <li>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel">
+                </li>
+                <li>
+                <input id="borrar" type="reset" value="Reset">
+                <input id="enviar" type="submit" value="Enviar"> 
+                </li> 
+            </ul>
+    </form>
+</body>
+</html>
