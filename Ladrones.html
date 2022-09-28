@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladronzuelos</title>
+    <style>
+        .box{
+            border: 2px solid ;
+            background-color: blue;
+            
+        }
+        h1{
+            text-align: center;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        body{
+            background-color:aqua
+        }
+        form{
+            font-family: "bungee", sans-serif
+
+        }
+    </style>
+</head>
+<header>
+    <h1 class="box">Los ladronzuelos de bicicletas</h1>
+</header>
+<body>
+    <form action="#">
+        <ul>
+            <li>
+                <label>
+                    Día: <input type="date">
+                </label>
+            </li>
+            <li>
+                <label>
+                    Hora: <input type="time">
+                </label>
+            </li>
+            <li>
+                <label>
+                    Color de la bicicleta: <input type="color">
+                </label>
+            </li>
+            <li>
+                <label>
+                   Rango de precio: <input type="range" min="100" max="500">
+                </label>
+            </li>
+            <li>
+                Tipo de bicicleta:
+                <select name="Bike" id="Bike">
+                    <optgroup label="Paseo">
+                        <option value="Señorial">Señorial</option>
+                        <option value="Anti-plebeyos">Anti-plebeyos</option>
+                        <option value="Por encima  del  hombro">Por encima del hombro</option>
+                    <optgroup label="Montaña">
+                        <option value="Gamusinos">Gamusinos</option>
+                        <option value="Huele flores premium">Huele flores premium</option>
+                        <option value="Fango lover">Fango lover</option>
+                    <optgroup label="Carreras">
+                        <option value="Metroymedio">Metroymedio</option>
+                        <option value="3 de la tarde">3 de la tarde</option>
+                        <option value="Grupitors">Grupitors</option>
+                        
+                </select>
+            </li>
+            <li>
+                Accesorios
+                <select multiple name="Accesorios" id="Accesorios">
+                    <option value="Ruedines">Ruedines</option>
+                    <option value="Pegatinas">Pegatinas</option>
+                    <option value="Cestita">Cestita</option>
+                    <option value="Bomba de aire">Bomba de aire</option>
+                    <option value="Timbre">Timbre</option>
+                    <option value="Foco">Foco</option>
+                </select>
+            </li>
+            <li>
+                ¿Que marca era?:
+                <input list="bicis">
+                <datalist id="bicis">
+                    <option value="specialized">
+                    <option value="trek">
+                    <option value="merida">
+                    <option value="scott">
+                    <option value="giant">
+                    <option value="cube">
+                    <option value="lapierre">
+                    <option value="orbea">
+                    <option value="cannondale">
+                    <option value="bmc">
+                    <option value="canyon">
+                    <option value="look">
+                    <option value="protek">
+                    <option value="megamo">
+                    <option value="">
+                    <option value="bianchi">
+                    <option value="bh">
+                    <option value="factor">
+                    <option value="ghost">
+                    <option value="cervélo">
+                    <option value="argon">
+                </datalist>
+            </li>
+        </ul>        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
