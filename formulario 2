@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Ladronzuelos de bicicletas</title>
+</head>
+
+<body>
+    <h1>Los ladronzuelos de bicicletas</h1>
+    <form action="" class="form">
+
+        <ul>
+            <li><label for="fecha">Día</label>
+                <input  type="date" name="" id="fecha"  autofocus>
+            </li>
+            <li>
+                <label for="hora">Hora</label>
+                <input  type="time" name="" id="hora" >
+            </li>
+
+            <li><label for="Color">Color de la bicicleta</label>
+                <input  type="color" name="" id="color">
+            </li>
+            
+            <li><label for="range">Rango de precio</label>
+                <input  type="range" min="30" max="1000" id="range">
+            </li>
+
+
+
+
+
+
+
+            
+            <li><h3 >Tipo de bicicleta</h3>
+                <h4>Paseo</h4>
+                <select name="" >
+                    <option value="">--Selecciona una opción--</option>
+                    <option value="">Señorial</option>
+                    <option value="">Anti-plebeyos</option>
+                    <option value="">PorEncimaDelHombro</option>
+                </select></li>
+
+                <h4>Montaña</h4>
+                <select name="">
+                    <option value="">--Selecciona una opción--</option>
+                    <option value="">Gamusinos</option>
+                    <option value="">Hueleflores premium</option>
+                    <option value="">Fango lover</option>
+                </select></li>
+
+                <h4>Carreras</h4>
+                <select name="">
+                    <option value="">--Selecciona una opción--</option>
+                    <option value="">Metroymedio</option>
+                    <option value="">3 de la tarde. Fluorescente edition</option>
+                    <option value="">Grupitors</option>
+                </select></li>
+
+                <h4>Accesorios</h4>
+                <select multiple name="">
+                    <option value="">--Selecciona una opción--</option>
+                    <option value="">Ruedines</option>
+                    <option value="">Pegatinas</option>
+                    <option value="">Cestita</option>
+                    <option value="">Bomba de aire</option>
+                    <option value="">Timbre</option>
+                    <option value="">Foco</option>
+                </select></li>
+
+                <h4>¿Qué marca era?</h4>
+                <input list="marcas">
+                <datalist id="marcas">
+                    <option value="Specialized">
+                    <option value="Trek">
+                    <option value="Merida">
+                    <option value="Scott">
+                    <option value="Giant">
+                    <option value="Cube">
+                    <option value="Lapierre">
+                </datalist>
+
+            </ul>
+        <div class="buttons">
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar formulario</button>
+        </div>
+    </form>
+</body>
+
+</html>
