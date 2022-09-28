@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1 class="box">
+    ¡Únete al club viejuner!
+    </h1>
+    <span style='font-size:80px;'>&#129346;</span>
+    <span style='font-size:80px;'>&#129346;</span>
+    <span style='font-size:80px;'>&#129346;</span>
+    <span style='font-size:80px;'>&#129346;</span>
+    <span style='font-size:80px;'>&#129346;</span>
+
+    <form>
+        <ol>
+            <fieldset>
+                <legend><strong>Queremos saber quien eres:)</strong></legend>
+           <label for="name">Nombre:</label>
+           <input type="text" id="name" name="user_name"
+           autofocus placeholder="escribe aquí.." ></input>
+           <br>
+         </li>
+         <br>
+         <li>
+           <label for="Lname">Apellidos:</label>
+           <input type="text" id="Lname" name="user_lname">
+         </li>
+         <br>
+         <li>
+           <label for="age">Edad:</label>
+           <input type="number" id="age" name="user_age" min="65" max="100"></input>
+         </li>
+         <br>
+         <li>
+            <label for="gender">Género</label>
+            <br>
+            <input type="radio" name="gender" value="male"> Masculino<br>
+            <input type="radio" name="gender" value="female"> Femenino<br>
+            <input type="radio" name="gender" value="unknown"> Prefiero no decirlo	
+          </li>
+          <br>
+          <li>
+            <label for="viejubutton"> Si te sientes viejuner pulsa aquí ---> </label>
+            <input type="checkbox" name="viejubutton">
+        </li>
+        <br>
+        <li>
+            <label for="extra-information">Escríbenos algo sobre ti </label>
+            <input type="textarea" name="extra-information">
+        </li>
+        <br>
+        Para contactar contigo necesitamos lo siguiente:)
+        <br><br>
+        <li>
+            <label for="email">Correo electrónico</label>
+            <input type="email" name="email"> 
+        </li>
+        <br>
+        <li>
+        <label for="telephone">Teléfono</label>
+        <input type="tel" id="telephone" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" 
+        required>
+        </li>
+        <br>
+        <input id="borrar" type="reset" value="Borrar datos :( ">
+        <input id="enviar" type="submit" value="Enviar datos :)"> 
+  
+
+        </ol>
+    </fieldset>
+       </form>
+</body>
+</html>
+
+
+
