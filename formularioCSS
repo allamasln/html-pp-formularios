@@ -1,0 +1,23 @@
+
+ol{
+    list-style-type: none
+    
+}
+
+h1{
+    margin-left: 30px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+body{
+    border: 2px solid;
+    background-color: lightgray;
+    
+    
+
+}
+
+.reset{
+    background-color: yellow;
+}
