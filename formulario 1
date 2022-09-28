@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>El club viejuner</title>
+</head>
+
+<body>
+    <h1>El club viejuner</h1>
+    <h2>Tú</h2>
+    <form action="" class="form">
+
+        <ul>
+            <li><label for="nombre">Nombre</label>
+                <input  type="text" name="" id="Nombre" placeholder="Tu nombre" autofocus>
+            </li>
+            <li>
+                <label for="apellido">Apellido</label>
+                <input  type="text" name="" id="apellido" placeholder="Tu apellido">
+            </li>
+
+            <li><label for="edad">Edad</label>
+                <input  type="number" name="" id="edad" placeholder="Tu edad">
+            </li>
+
+            <span>Sexo</span> <br>
+            <label for="hombre">Hombre</label>
+                <input  type="radio" id="hombre" name="sexo" >
+            
+            <label for="mujer">Mujer</label>
+                <input tabindex="0" type="radio" id="mujer" name="sexo" >
+            <br><br>
+
+
+            <li><label for="viejuner">Me siento viejuner</label>
+               Sí <input type="checkbox" id="viejuner" value="1" >
+               No <input type="checkbox" id="viejuner" value="1" >
+            </li><br>
+
+
+
+
+
+
+            <li><label for="about">Escribe algo sobre ti</label><br>
+                <fieldset>
+                    <legend>Sobre mí</legend>
+                <textarea name="" id="about" cols="30" rows="10"></textarea></fieldset>
+            </li>
+
+
+
+            <span>Tus circunstancias:</span>
+            <li><label for="email">Correo electrónico</label>
+                <input type="email" name="" id="email" placeholder="Correo electrónico">
+            </li>
+            <li><label for="tel">Teléfono</label>
+                <input type="tel" id="tel" placeholder="teléfono">
+            </li>
+
+        </ul>
+        <div class="buttons">
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar formulario</button>
+    </div>
+    </form>
+</body>
+
+</html>
