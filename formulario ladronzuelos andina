@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Los ladronzuelos de bicicletas</title>
+        <link rel="stylesheet" src="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>LOS LADRONZUELOS DE BICICLETAS</h1>
+        </header>   
+        
+        <div>
+           <ol>
+            <li>
+                <label>Día</label><br>
+                <input type="date">
+            </li>
+            <br>
+            <li>
+                <label>Hora</label><br>
+                <input type="time">
+            </li>
+            <br>
+            <li>
+                <label>Color de la bicicleta</label><br>
+                <input type="color">
+            </li>
+            <br>
+            <li>
+                <label for="range">Rango de precio</label><br>
+                <input type="range" min="50" max="500" id="range">
+            </li>
+            <br>
+            <li>
+                <label for="Tipodebicicleta">Tipo de bicicleta</label><br>
+                <select id="Tipodebicicleta"> 
+                    <optgroup label="Paseo">
+                        <option>Señorial</option>
+                        <option>Anti-plebeyos</option>
+                        <option>PorEncimaDelHombro</option>
+                    </optgroup>
+                    <optgroup label="Montaña">
+                        <option>Gamusinos</option>
+                        <option>Hueleflores premium</option>
+                        <option>Fango lover</option>
+                    </optgroup>
+                    <optgroup label="Carreras">
+                        <option>Metroymedio</option>
+                        <option>3 de la tarde. Fluorescente edition</option>
+                        <option>Grupitors</option>
+                    </optgroup>
+                </select>
+            </li>
+            <br>    
+            <li>
+                <label for="accesorios">Accesorios</label><br>
+                <select name="accesorios" id="accesorios" multiple>
+                    <option value="">Ruedines</option>
+                    <option value="">Pegatinas</option>
+                    <option value="">Cestita</option>
+                    <option value="">Bomba de aire</option>
+                    <option value="">Timbre</option>
+                    <option value="">Foco</option>
+                </select>
+            </li> 
+            <br> 
+            <li>
+                <label for="marca">¿Qué marca era?</label><br>
+                <input list="marca" name="marca">
+                    <datalist id="marca">
+                        <option value="Specialized">Specialized</option>
+                        <option value="Trek">Trek</option>
+                        <option value="Merida">Merida</option>
+                        <option value="Scott">Scott</option>
+                        <option value="Giant">Giant</option>
+                        <option value="Cube">Cube</option>
+                        <option value="Lapierre">Lapierre</option>
+                        <option value="Orbea">Orbea</option>
+                        <option value="Cannondale">Cannondale</option>
+                        <option value="Bmc">Bmc</option>
+                        <option value="Canyon">Canyon</option>
+                        <option value="Look">Look</option>
+                        <option value="Protek">Protek</option>
+                        <option value="Megamo">Megamo</option>
+                        <option value="Pinarelli">Pinarelli</option>
+                        <option value="Bianchi">Bianchi</option>
+                        <option value="BH">BH</option>
+                        <option value="Factor">Factor</option>
+                        <option value="Ghost">Ghost</option>
+                        <option value="Cervélo">Cervélo</option>
+                        <option value="Argon">Argon</option>
+                    </datalist>
+            </li>
+           </ol>  
+        </div>
+        
+        <footer>
+            <input type="submit">
+            <input type="reset">
+        </footer>
+
+     </body> 
+       
+</html>
