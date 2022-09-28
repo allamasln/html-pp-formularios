@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Formularios viejuners</title>
+        <link rel="stylesheet" src="style.css">
+    </head>
+
+<body>
+
+<header>
+    <h1>EL CLUB VIEJUNER</h1>
+</header>
+
+<div>
+
+<h2> TÚ: </h2>
+
+<ol>
+    <li>
+    <label>Nombre:</label><br>
+    <input type="text">
+    </li>
+<br>
+    <li>
+    <label>Apellidos:</label><br>
+    <input type="text">
+    </li>
+<br>
+    <li>
+    <label>Edad:</label><br>
+    <input type="number">
+    </li>
+<br>
+    <li>
+    <label>Sexo:</label><br>
+    Mujer<input type="radio" name="sexo">
+    Hombre<input type="radio" name="sexo">
+    No Binario<input type="radio" name="sexo">
+    </li>
+<br>
+    <li>
+    <label>Me siento viejuner:</label><br>
+    Sí<input type="checkbox">
+    No<input type="checkbox">
+    </li>
+<br>
+    <li>
+    <label>Escribe algo sobre ti:</label><br>
+    <textarea maxlength="100"></textarea>
+    </li>
+</ol>
+
+</div>
+
+<div>
+
+<h2> TUS CIRCUNSTANCIAS: </h2>
+
+<ol>
+    <li>
+        <label>Correo electrónico:</label><br>
+        <input type="email">
+    </li>
+<br>
+    <li>
+        <label>Teléfono:</label><br>
+        <input type="tel">
+    </li>    
+
+</ol>
+
+</div>
+
+<br>
+
+<footer>
+    <input type="submit">
+    <input type="reset">
+</footer>
+
+</body>
+
+</html>
