@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de robos</title>
+
+</head>
+    <body>
+        <h1 class="box">
+        Información sobre bicicletas robadas
+        </h1>
+        <form>
+            <ol>
+                <fieldset>
+                    <legend><strong>Datos sobre el robo </strong></legend>
+                    <br>
+                    <li>    
+                    <label for="day">Día</label>
+                        <input type="date" id="day" name="day"
+                      
+                      autofocus placeholder="escribe aquí.." ></input>  
+                    </li>
+                    <br>
+                    <li>
+                    <label for="time">Hora</label>
+                    <input type="time" id="appt" name="user_appt" min="00:00" max="23:59" required>
+                    </li>
+                    <br>
+                    <li>
+                    <label for="color">Color de la bicicleta</label>
+                    <input type="color" id="color" name="user_color" ></input>
+                    </li>
+                    <br>
+                    <li>
+                    <label for="price">Rango de precio</label>
+                    <br>
+                    20$ <input type="range" name="price" min="20" max="500">500$ <br>
+                    </li>
+                    <br>
+                    <li>
+                    Tipo de bicicleta
+                        <ul>
+                            <br>
+                            <li>  
+                            <label for="fieldbike">Tipo paseo:</label>
+                            <select name="fieldbike" id="fieldbike" >
+                            <option value="Señorial">Señorial</option>
+                            <option value="Anti-pleveyos">Anti plebebeyos</option>
+                            <option value="PorEncimadelHombro">PorEncimadelHombro</option>
+                            </select>
+                             </li>  
+                             <li>  
+                             <label for="mountainbike">Tipo montaña:</label>
+                            <select name="mountainbike" id="mountainbike" >
+                            <option value="Gamusinos">Gamusinos</option>
+                            <option value="Hueleflores-premium">Hueleflores premium</option>
+                            <option value="Fango-lover">Fango lover</option>
+                            </select>
+                            </li> 
+                            <li>  
+                            <label for="racebike">Tipo carrera:</label>
+                            <select name="racebike" id="racebike" >
+                            <option value="Metroymedio">Metroymedio</option>
+                            <option value="3pm-Fluoredit">3pm fluor edition</option>
+                            <option value="Grupitors">Grupitors</option>
+                            </select>
+                            </li>  
+                        </ul>
+                    </li>
+                     <br>
+                    <li>
+                    <label for="accesorio">Accesorios </label>
+                    <select name="accesorios" id="accesorios" multiple>
+                        <option value="Ruedines">Ruedines</option>
+                        <option value="Pegatinas">Pegatinas</option>
+                        <option value="Cestita">Cestita</option>
+                        <option value="Bomba-aire">Bomba de aire</option>
+                        <option value="Timbre">Timbre</option>    
+                        <option value="Foco">Foco</option>
+                    </select>
+                    </li>
+                    <br>
+                    <li>
+                    <label for="marca">¿Qué marca era tu bicicleta?</label>
+                    <select name="marca" id="marca" multiple>
+                        <option value="specialized">specialized</option>
+                        <option value="trek">trek</option>
+                        <option value="merida">merida</option>
+                        <option value="scott">scott</option>
+                        <option value="giant">giant</option>    
+                        <option value="cube">cube</option>
+                        <option value="lapierre">lapierre</option>
+                        <option value="orbea">orbea</option>
+                        <option value="cannondale">cannondale</option>
+                        <option value="bmc">bmc</option>
+                        <option value="canyon">canyon</option>    
+                        <option value="look">look</option>
+                        <option value="protek">protek</option>
+                        <option value="megamo">megamo</option>
+                        <option value="pinarello">pinarello</option>
+                        <option value="bianchi">bianchi</option>
+                        <option value="bh">bh</option>    
+                        <option value="factor">factor</option>
+                        <option value="ghost">ghost</option>
+                        <option value="cervélo">cervélo</option>
+                        <option value="argon">argon</option>
+                    </select>
+                    </li>
+
+            
+            <br>
+            <input id="borrar" type="reset" value="Borrar datos" >
+            <input id="enviar" type="submit" value="Enviar datos"> 
+    
+
+            </ol>
+        </fieldset>
+        </form>
+</body>
+</html>
