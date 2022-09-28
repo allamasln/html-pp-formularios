@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<html>
+
+
+    <head>
+    <title>El club viejuner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body tabindex="0"> 
+        <h1>EL CLUB VIEJUNER</h1>
+            <ol>
+                <li><label>Nombre: </label><input type="text" autofocus required></li><br>
+                <li><label>Apellidos: </label><input type="text" required></li><br>
+                <li><label>Edad: </label><input type="number" required></li><br>
+                <li><label>Sexo: 
+                    <ul>
+                        <li>Masculino:</li><input type="radio" name="Sexo">
+                        <li>Femenino:</li><input type="radio" name="Sexo">
+                        <li>Prefiero no especificar:</li><input type="radio" name="Sexo">
+                    </ul></label></li><br>
+                <li>Me siento viejuner :<input type="checkbox"></li><br>
+                <li>Escribe algo sobre ti: </li> <textarea maxlength="120"></textarea><br><br>
+                <li>Tus circunstancias:</li><br>
+                <li><label>E-mail: </label><input type="email" placeholder="ejemplo@viejuner.es"></li><br>
+                <li><label>Tlf.: </label><input type="tel" placeholder="+34 123-45-67-89" required></li><br>
+                <input type='submit'><br><br>
+                <input class="reset"type="reset" value="Borrar Formulario">
+
+            </ol>
+
+    
+    
+    </body>
+
+
+
+</html>
