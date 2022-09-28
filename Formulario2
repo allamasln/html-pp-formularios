@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {background-color: rgb(241, 241, 245);}
+        h1 {color: rgb(22, 56, 104);}
+        label {color: rgb(24, 32, 47);}
+        input {color: rgb(32, 68, 122);}
+        li {list-style: none;}
+    </style>
+</head>
+<body>
+    <h1>Los ladronzuelos de bicicletas</h1>
+    <form action="" class="form">
+            <ul>
+                <li>
+                    <label for="dia">Día</label>
+                    <input type="date">
+                </li>
+                <li>
+                    <label for="hora">Hora</label>
+                    <input type="time">
+                </li>
+                <li>
+                    <label for="color">Color</label>
+                    <input type="color">
+                </li>
+                <li>
+                    <label for="precio">Rango de precio</label>
+                    <input type="range" min="1" max="5">
+                </li>
+                <h3>Tipo de bicicleta</h3>
+                <li>
+                <select name="" id="">
+                    <option selected disabled>-PASEO-</option>
+                    <option value="1">Señorial</option>
+                    <option value="2">Anti-plebeyos</option>
+                    <option value="3">PorEncimaDelHombro</option>
+                </select>
+                </li>
+                <li>
+                    <select name="" id="">
+                        <option selected disabled>-MONTAÑA-</option>
+                        <option value="1">Gamusinos</option>
+                        <option value="2">Hueleflores premium</option>
+                        <option value="3">Fango lover</option>
+                    </select>
+                </li>
+                <li>
+                    <select name="" id="">
+                        <option selected disabled>-CARRERAS-</option>
+                        <option value="1">Metroymedio</option>
+                        <option value="2">3 de la tarde. Fluorescente edition</option>
+                        <option value="3">Grupitors</option>
+                    </select>
+                </li>
+                <li>
+                    <h4>Accesorios</h4>
+                    <select multiple name="" id="">
+                        <option value="">Ruedines</option>
+                        <option value="">Pegatinas</option>
+                        <option value="">Cestita</option>
+                        <option value="">Bomba de aire</option>
+                        <option value="">Timbre</option>
+                        <option value="">Foco</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="">¿Qué marca era?:</label>
+                    <input list="marca">
+                        <datalist id="marca">
+                            <option value="Specialized">
+                            <option value="Trek">
+                            <option value="Merida">
+                            <option value="Scott">
+                            <option value="Giant">
+                            <option value="Cube">
+                            <option value="Lapierre">
+                            <option value="orbea">
+                            <option value="cannondale">
+                            <option value="bmc">
+                            <option value="canyon">
+                            <option value="look">
+                            <option value="protek">
+                            <option value="megamo">
+                            <option value="pinarello">
+                            <option value="bianchi">
+                            <option value="bh">
+                            <option value="factor">
+                            <option value="ghost">
+                            <option value="cervélo">
+                            <option value="argon">
+                </li><br>
+                <li>
+                    <input id="borrar" type="reset" value="Reset">
+                    <input id="enviar" type="submit" value="Enviar"> 
+                </li> 
+            </ul>
+    </form>>
+</body>
+</html>
