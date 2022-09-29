@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Robos</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario para robo de bicicletas</h1>
+    </header>
+    <form action="#">
+    <ul>
+        <li><label for="dia">Día</label>
+            <input type="date" id="dia"><br></li>
+        <li><label for="hora">Hora</label>
+            <input type="time" id="hora"><br></li>
+        <li><label for="tipo">Tipo de Bicicleta</label>
+            <select id="tipo">
+                    <option selected>Seleccionar</option>
+                <optgroup label="Paseo">
+                    <option>Señorial</option>
+                    <option>Anti-plebeyos</option>
+                    <option>PorEncimaDelHombro</option>
+                </optgroup>
+                <optgroup label="Montaña">
+                    <option>Gamusinos</option>
+                    <option>Hueleflores premium</option>
+                    <option>Fango lover</option>
+
+                </optgroup>
+                <optgroup label="Carreras">
+                    <option>Metroymedio</option>
+                    <option>3 de la tarde. Fluorescente edition</option>
+                    <option>Grupitors</option>
+                </optgroup>
+            </select><br></li>
+        <li><label for="accesorios">Accesorios</label>
+            <select multiple id="accesorios" size="1">
+                <option selected>Seleccionar</option>
+                <option>Ruedines</option>
+                <option>Pegatinas</option>
+                <option>Cestita</option>
+                <option>Bomba de aire</option>
+                <option>Timbre</option>
+                <option>Foco</option>
+            </select><br></li>
+        <li><label for="marcas">Marca de bicicleta</label>
+            <input list="marcasBicicletas" id="marcas">
+            <datalist id="marcasBicicletas">
+                <option selected>Seleccionar</option>
+                <option>Specialized</option>
+                <option>Trek</option>
+                <option>Merida</option>
+                <option>Scott</option>
+                <option>Giant</option>
+                <option>Cube</option>
+                <option>Lapierre</option>
+                <option>Orbea</option>
+                <option>Cannondale</option>
+                <option>BMC</option>
+                <option>Canyon</option>
+                <option>Look</option>
+                <option>Protek</option>
+                <option>Megamo</option>
+                <option>Pinarello</option>
+                <option>Bianchi</option>
+                <option>BH</option>
+                <option>Factor</option>
+                <option>Ghost</option>
+                <option>Cervelo</option>
+                <option>Argon</option>
+            </datalist></li>
+        <li>
+            <label for="color">Color</label>
+            <input type="color" id="color">
+        </li>
+        <li>
+            <label for="precio">Precio</label>
+            <input type="range" min="200" max="1200" step="50" id="precio">
+        </li>   
+    </ul>
+    <button type="submit">Enviar</button>
+    <button type="reset">Cancelar</button>
+    <button >Atras</button>
+    </form>
+    
+</body>
+</html>

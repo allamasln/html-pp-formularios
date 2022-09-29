@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario club Viejuner</title>
+    <style>
+        body {
+            background-color: lightgrey;
+        }
+
+        #sexo {
+            width: 180px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Mis Datos Personales</legend>
+            <ul>
+                <li><label for="nombres">Nombres</label></li>
+                <input type="text" id="nombres"><br>
+                <li><label for="apellidos">Apellidos</label></li>
+                <input type="text" id="apellidos"><br>
+                <li><label for="edad">Edad</label></li>
+                <input type="number" id="edad"><br>
+                <li>
+                    <fieldset id="sexo">
+                        <legend>Sexo</legend>
+                        <label>Mujer</label><input type="radio" id="Sexo">
+                        <label>Hombre</label><input type="radio" id="Sexo">
+                    </fieldset>
+                </li>
+                <li><label>Me siento viejuner</label></li>
+                <input type="checkbox"><br>
+                <li><label>Escribe algo sobre ti:</label></li>
+                <textarea rows="5" cols="50"></textarea>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Tus Circuntancias</legend>
+            <ul>
+                <li><label for="email">Correo electronico</label></li>
+                <input type="email" id="email">
+                <li><label for="telefono">Telefono</label></li>
+                <input type="Number" id="telefono">
+            </ul>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
